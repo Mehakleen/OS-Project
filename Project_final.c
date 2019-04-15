@@ -237,7 +237,7 @@ int main()
 	
 		if(!safe)
 		{
-			printf("\nThe Process is in Unsafe state.\n");
+			printf("\nThe Process is in Unsafe state i.e Deadlock State\n");
 			break;
 		}
 		
