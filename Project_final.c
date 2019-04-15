@@ -12,7 +12,6 @@ int main()
 	int maximum_resource[5];          //stores total instances of each resource 
 	int running[5];                   //stores the information of process whether it is in execution or it has terminated
 	int new_request[5][5];            //stores the new request table of each process
-	int empty[5][5] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 	
 	int i,j,exec,r,p;
 	int need = 1;
